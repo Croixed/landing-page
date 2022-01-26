@@ -20,7 +20,7 @@ body {
 .logo {
   margin-left: 20px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .hero {
@@ -30,7 +30,7 @@ body {
   height: auto;
   background-image: url("images/beefburrito.png");
   background-attachment: fixed;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
@@ -112,9 +112,11 @@ body {
   display: flex;
   height: 300px;
   /*background-color: #e5e7eb;*/
-  background-image: url("images/slop.jpg");
+  /*background-image: url("images/slop.jpg");*/
+  background: rgba(0, 0, 0, 0.35) url("images/slop.jpg");
+  background-blend-mode: darken;
   background-attachment: fixed;
-  background-size: 200vw;
+  background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -138,11 +140,31 @@ body {
 
 .signup {
   height: 200px;
+  background-color: #4A6385;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* use 6E92C4 as border highlight/buttons? */
 }
 
+.signuptainer {
+  gap: 24em;
+  padding: 20px 100px;
+  display: flex;
+  background-color: #6E92C4;
+  border-radius: 8px;
+}
 
+.signleft {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
 
-
+.signuptitle {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 
 
@@ -187,7 +209,7 @@ a {
 }
 
 .hero img {
-  height: 220px;
+  height: 260px;
   width: auto;
   margin: 30px;
   border-radius: 10px;
