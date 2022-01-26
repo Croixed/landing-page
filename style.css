@@ -43,7 +43,7 @@ body {
 }
 
 .infocard {
-  height: 300px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,15 +61,17 @@ body {
   margin-right: 120px;
   align-items: baseline;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
+  margin-bottom: 24px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120px;
+  width: 220px;
 }
 
 .infotext {
@@ -150,8 +152,8 @@ a {
 
 
 img {
-  height: 100px;
-  width: 100px;
-  border: #3882f6 3px solid;
+  height: 180px;
+  width: 180px;
+  border: #3882f6 4px solid;
   border-radius: 22%;
 }
