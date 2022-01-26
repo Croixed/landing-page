@@ -8,6 +8,8 @@ body {
 }
 
 .header {
+  position: fixed;
+  width: 100vw;
   height: 50px;
   display: flex;
   background-color: #1f2937;
@@ -17,21 +19,86 @@ body {
 
 .logo {
   margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   background-color: #435164;
   color: white;
 }
 
+.herotainer {
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #74829e;
+  
+}
+
 .infocard {
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infotitle {
+  text-align: center;
+  margin: 16px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.infotainer {
+  margin-left: 120px;
+  margin-right: 120px;
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.infotext {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .quote {
+  display: flex;
   height: 300px;
   background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+}
+.quotetainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #e4e6ea;
+  align-items: flex-end;
+}
+
+.quotetext {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.signup {
+  height: 200px;
 }
 
 
@@ -44,9 +111,9 @@ body {
 
 
 
-
-
-
+.content {
+  margin-top: 50px;
+}
 
 .footer {
   height: 50px;
@@ -57,15 +124,25 @@ body {
   justify-content: center;
 }
 
-
 ul {
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 34px;
   list-style-type: none;
   display: flex;
+  gap: 2em;
 }
+
 
 a {
   text-decoration: none;
   color: white;
+}
+
+
+
+img {
+  height: 100px;
+  width: 100px;
+  border: #3882f6 3px solid;
+  border-radius: 22%;
 }
