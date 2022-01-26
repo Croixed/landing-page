@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: auto;
   background-image: url("images/beefburrito.png");
   background-attachment: fixed;
   background-size: 100vw;
@@ -36,10 +36,25 @@ body {
 }
 
 .herotainer {
+  display: flex;
   margin-left: 120px;
   margin-right: 120px;
-  background-color: #74829e;
-  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f2937d0;
+  border-radius: 30px;
+}
+
+.heroleft {
+  width: 360px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.herotitle {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .infocard {
@@ -51,9 +66,9 @@ body {
 
 .infotitle {
   text-align: center;
-  margin: 16px;
+  margin: 18px;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .infotainer {
@@ -72,6 +87,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 220px;
+  row-gap: 20px;
 }
 
 .infotext {
@@ -151,9 +167,15 @@ a {
 
 
 
-img {
+.info img {
   height: 180px;
   width: 180px;
   border: #3882f6 4px solid;
   border-radius: 22%;
+}
+
+.hero img {
+  height: 220px;
+  width: auto;
+  margin: 30px;
 }
