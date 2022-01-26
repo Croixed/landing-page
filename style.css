@@ -1,7 +1,71 @@
 
 
 body {
-  height: 100hv;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  font-family: roboto, sans-serif;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.hero {
+  height: 300px;
+  background-color: #435164;
+  color: white;
+}
+
+.infocard {
+  height: 300px;
+}
+
+.quote {
+  height: 300px;
+  background-color: #e5e7eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  height: 50px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ul {
+  margin-left: auto;
+  margin-right: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
