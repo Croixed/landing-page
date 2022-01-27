@@ -148,9 +148,10 @@ body {
 }
 
 .signuptainer {
-  gap: 24em;
+  gap: 200px;
   padding: 20px 100px;
   display: flex;
+  justify-content: space-between;
   background-color: #6E92C4;
   border-radius: 8px;
 }
@@ -204,7 +205,7 @@ a {
 .info img {
   height: 180px;
   width: 180px;
-  border: #3882f6 4px solid;
+  border: #6E92C4 4px solid;
   border-radius: 22%;
 }
 
